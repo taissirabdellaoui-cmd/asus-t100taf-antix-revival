@@ -13,4 +13,4 @@ A systems engineering case study documenting the bare-metal installation and ker
 3. **Broadcom `brcmfmac` & IEEE 802.11w (PMF) Handshake Failure:** Resolved repeated WPA authentication rejections by isolating Protected Management Frames (PMF) incompatibility in WPA2/WPA3 mixed mode, switching the access point to pure `WPA2-PSK` (AES), purging stale ConnMan service caches (`/var/lib/connman/`), and re-registering the `cmst` D-Bus agent.
 
 ## Full Technical Write-Up
-* [Technical Reference & CS Concept Breakdown (PDF)](./t100taf_antix_cs_summary.pdf)
+* [ASUS T100TAF & antiX-26.1 Systems Engineering & Troubleshooting Reference (PDF)](./ASUS%20T100TAF%20%26%20antiX-26.1%20Systems%20Engineering%20%26%20Troubleshooting%20Reference.pdf)
